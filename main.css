@@ -1,0 +1,161 @@
+@media screen and (max-width: 900px) {
+    @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+body {
+    background-color: #ffff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    padding: 15px;
+    margin: 0;
+}
+
+nav {
+    border-top: 2px solid #d0d0d0;
+    border-bottom: 2px solid #d0d0d0;
+    line-height: 1px;
+}
+
+nav a{
+    font-family: lora;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav a:hover{
+    color: #00ddff;
+}
+
+nav a:active{
+    color: #DEB887;
+}
+
+nav a:visited{
+    color: #666;
+}
+
+li{
+    display: inline;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: lora;
+    text-align: center;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #333;
+}
+
+h2{
+    font-family: lora;
+    font-size: 1em;
+}
+
+h2 a{
+    text-decoration: none;
+    color: #333;
+}
+
+.post-date{
+    display: block;
+    margin: 15px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: lora;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.post-content{
+    display: block;
+    text-align: center;
+}
+
+}
+
+
+/*----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------*/
+
+body {
+    background-color: #ffff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    padding: 15px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #d0d0d0;
+    border-bottom: 2px solid #d0d0d0;
+}
+
+nav a{
+    font-family: lora;
+    text-align: right;
+    text-decoration: none;
+    padding: 15px;
+    margin: 15px;
+}
+
+nav a:hover{
+    color: #00ddff;
+}
+
+nav a:active{
+    color: #DEB887;
+}
+
+nav a:visited{
+    color: #666;
+}
+
+li{
+    display: inline;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: lora;
+    text-align: center;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #333;
+}
+
+h2{
+    font-family: lora;
+    font-size: 1em;
+}
+
+h2 a{
+    text-decoration: none;
+    color: #333;
+}
+
+.post-date{
+    height: 450px;
+    float: left;
+    margin: 15px;
+    text-align: right;
+    font-size: 1.5em;
+    border-right: 1px solid #d0d0d0;
+    display: block;
+    font-family: lora;
+}
+
+.post-content{
+    position: relative;
+    border-bottom: 1px dashed #d0d0d0;
+}
+
+p{
+    text-align: right;
+}
