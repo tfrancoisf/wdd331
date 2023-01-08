@@ -1,5 +1,6 @@
-@media screen and (max-width: 1200px) {
-    @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@media screen and (max-width: 1200px) 
+{
 body {
     background-color: #ffff;
     font-family: Helvetica, Arial, sans-serif;
