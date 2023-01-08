@@ -11,7 +11,7 @@ body {
 nav {
     border-top: 2px solid #d0d0d0;
     border-bottom: 2px solid #d0d0d0;
-    line-height: 1px;
+    line-height: 15px;
 }
 
 nav a{
@@ -74,12 +74,25 @@ h2 a{
     text-align: center;
 }
 
+p a:hover{
+    color: #00ddff;
+}
+
+p a:active{
+    color: #DEB887;
+}
+
+p a:visited{
+    color: #666;
+}
+
 }
 
 
 /*----------------------------------------------------------------------*/
 /*----------------------------------------------------------------------*/
 
+@media screen and (min-width: 900px) {
 body {
     background-color: #ffff;
     font-family: Helvetica, Arial, sans-serif;
@@ -158,4 +171,5 @@ h2 a{
 
 p{
     text-align: right;
+}
 }
