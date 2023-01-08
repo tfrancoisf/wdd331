@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
     @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 body {
     background-color: #ffff;
@@ -92,7 +92,7 @@ p a:visited{
 /*----------------------------------------------------------------------*/
 /*----------------------------------------------------------------------*/
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
 body {
     background-color: #ffff;
     font-family: Helvetica, Arial, sans-serif;
